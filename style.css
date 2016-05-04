@@ -4,7 +4,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: 'Amiri', serif;
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 h1 {
@@ -29,6 +29,11 @@ h2 {
 	font-weight: 400;
 }
 
+li {
+	line-height: 130%;
+	margin-bottom: 12px;
+}
+
 .icon-list {
 	padding-left: 40px;
 }
@@ -40,4 +45,28 @@ h2 {
 
 .icon a {
 	color: #221010;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 740px) {
+
+	body {
+		margin-left:5%;
+		margin-right:5%;
+	}
+
+	.icon-list {
+    	text-align: justify;
+	}
+	.icon {
+    	width: 12%; /* Declare your value. Can be in relative units. */
+    	display: inline-block;
+    	vertical-align: top;
+	}
+	.icon-list:after {
+    	content: "";
+    	width: 100%;
+    	display: inline-block;
+	}
+
 }
