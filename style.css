@@ -1,0 +1,42 @@
+body {
+	background-color: #fff;
+	color: #221010;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Amiri', serif;
+}
+
+h1 {
+	text-align: center;
+	color: #ec3302;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color:#ec3302;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	color: #ec3302;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.icon-list {
+	padding-left: 40px;
+}
+
+.icon {
+	display:inline-block;
+	padding-right: 20px;
+}
+
+.icon a {
+	color: #221010;
+}
